@@ -209,7 +209,7 @@ a:hover
 	color: #383838;
 	text-decoration: none;
 	vertical-align: middle;
-	font-size: 2em;
+	font-size: 4rem;
 	font-weight: bold;
 	padding: 0.5em 0.5em 0.7em 0.5em;
 	border-radius: 0.5em;
@@ -246,7 +246,7 @@ a:hover
 }
 .at
 {
-	font-family: "Berlin Sans FB";
+	font-family: "Berlin Sans FB", BentonSans, Helvetica, Arial, sans-serif;
 	font-weight: normal;
 }
 
