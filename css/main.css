@@ -8,6 +8,7 @@ body
 	background-position-y: center;
 	background-position-x: center;
 	background-attachment: fixed;
+	font-size: 1.1rem;
 }
 
 a
@@ -22,7 +23,8 @@ a
 }
 a:hover
 {
-	color: #990000;
+	color: #ff5821;
+	border-color: #ff5821;
 }
 
 #page-wrapper
@@ -61,9 +63,13 @@ a:hover
 	  cursor: @cursor;
 }
 
-#navigation
+.navigation.desktop
 {
 	display: flex;
+}
+.navigation.mobile
+{
+	display: none;
 }
 
 .nav-button
@@ -244,11 +250,28 @@ a:hover
 	font-weight: normal;
 }
 
+.page-ender
+{
+	display: block;
+	margin: auto;
+	padding-top: 5rem;
+	margin-top: 5rem;
+	border-top: 1px dotted #ccc;
+	image-rendering: pixelated;
+}
+
+.studio-logo
+{
+	height: 9em;
+	width: auto;
+}
+
 @media only screen and (max-width: 900px), screen and (-webkit-min-device-pixel-ratio: 2)
 {
 	body
 	{
 		background-position-y: top;
+		font-size: 1.5rem;
 	}
 	#page-wrapper
 	{
@@ -260,15 +283,21 @@ a:hover
 		flex-direction: column;
 		align-items: center;
 	}
-	#navigation
+	.navigation.mobile
 	{
-		margin-top: -20px;
+		display: flex;
 		width: 100%;
+		border-bottom: 1em solid #ff5821;
 	}
+	.navigation.desktop
+	{
+		display: none;
+	}
+	
 	.nav-button
 	{
 		flex-grow: 1;
-		font-size: 2em;
+		font-size: 2rem;
 		padding: 1em;
 	}
 	
@@ -281,5 +310,29 @@ a:hover
 	.content
 	{
 		max-width: 80%;
+	}
+	.list-item
+	{
+		flex-direction: column;
+	}
+	.left-item
+	{
+		margin: auto;
+		margin-bottom: 1em;
+	}
+	.right-item
+	{
+		text-align: center;
+		padding-left: 0;
+	}
+	
+	.studio-logo
+	{
+		width: 80%;
+		height: auto;
+	}
+	.page-ender
+	{
+		height: 4em;
 	}
 }
