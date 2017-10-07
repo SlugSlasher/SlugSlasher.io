@@ -11,6 +11,11 @@ body
 	font-size: 1.2rem;
 }
 
+.rounded
+{
+	border-radius: 10px;
+}
+
 a
 {
 	color: #252525;
