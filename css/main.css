@@ -284,7 +284,6 @@ a:hover
 	margin: 0.5rem;
 	grid-column-start: span 2;
 	grid-row-start: span 2;
-	position: relative;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center;
@@ -329,28 +328,6 @@ a:hover
 	height: 100%;
 	visibility: hidden;
 }
-/*
-.tile.size1 img
-{
-	max-width: 10vw;
-}
-.tile.size2 img
-{
-	max-width: 15vw;
-}
-.tile.size3 img
-{
-	max-width: 20vw;
-}
-.tile.size4 img
-{
-	max-width: 25vw;
-}
-.tile.size5 img
-{
-	max-width: 30vw;
-}
-*/
 
 @media only screen and (max-width: 900px), screen and (-webkit-min-device-pixel-ratio: 2)
 {
@@ -423,6 +400,16 @@ a:hover
 	}
 	.tile-box
 	{
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+	.tile
+	{
+		height: 8em;
+	}
+	.tile.tall
+	{
+		height: 16em;
 	}
 }
