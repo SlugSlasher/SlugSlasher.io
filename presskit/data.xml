@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>	
+	<title>Slapped Silly Studios</title>
+	<founding-date>November 20, 2017</founding-date>
+	<website>http://slugslasher.com/about</website>
+	<based-in>Bloomington, Indiana</based-in>
+	
+	<press-contact>contact@slugslasher.com</press-contact>
+	<phone>+1 (812) 825 8902</phone>
+	<address>
+		<line>237 South Cave Creek Drive</line>
+		<line>Bloomington, Indiana 47403</line>
+	</address>
+
+	<socials>
+		<social>
+			<name>twitter.com/SlugSlasher</name>
+			<link>twitter.com/SlugSlasher</link>
+		</social>
+	</socials>
+
+	<description>	
+		Slapped Silly Studios is a three-person development team consisting of Indiana University students Rajin Shankar, Dakota Erickson, and Ryan Reske.
+	</description>
+		
+	<histories>
+		<history>
+			<header>Formation</header>
+			<text>Slug Slasher was originally pitched at Hoosier Games, Indiana University's game development club.</text>
+		</history>
+		<history>
+			<header>Here and Now</header>
+			<text>The three core members of the original team have continued to develop the game for the past year.</text>
+		</history>
+	</histories>
+		
+	<trailers>
+		<trailer>
+			<name>Teaser Trailer</name>
+			<youtube>7jQbITg0MSk</youtube>
+		</trailer>
+	</trailers>
+	
+	<awards>
+	</awards>
+	
+	<quotes>
+	</quotes>
+	
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>ask</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<additionals>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Rajin Shankar</person>
+			<website>rajinshankar.com</website>
+			<role>Programmer, Artist, Musician</role>
+		</credit>
+		<credit>
+			<person>Dakota Erickson</person>
+			<role>Level and Systems Designer</role>
+		</credit>
+		<credit>
+			<person>Ryan Reske</person>
+			<role>Designer and Producer</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>contact@slugslasher.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>http://twitter.com/SlugSlasher</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>SlugSlasher.com</link>
+		</contact>
+	</contacts>
+</game>
