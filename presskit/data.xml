@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- example file containing base tags -->
 
 <game>	
 	<title>Slapped Silly Studios</title>
@@ -8,7 +7,7 @@
 	<based-in>Bloomington, Indiana</based-in>
 	
 	<press-contact>contact@slugslasher.com</press-contact>
-	<phone>+1 (812) 825 8902</phone>
+	<phone>Remove This</phone>
 	<address>
 		<line>237 South Cave Creek Drive</line>
 		<line>Bloomington, Indiana 47403</line>
@@ -22,31 +21,34 @@
 	</socials>
 
 	<description>	
-		Slapped Silly Studios is a three-person development team consisting of Indiana University students Rajin Shankar, Dakota Erickson, and Ryan Reske.
+		Slapped Silly Studios is a three-person student game dev team featuring programmer/artist Rajin Shankar, systems/level designer Dakota Erickson, and designer/producer Ryan Reske.
+		The trio's first project, Slug Slasher, is poised for a summer 2018 release.
 	</description>
 		
 	<histories>
 		<history>
-			<header>Formation</header>
-			<text>Slug Slasher was originally pitched at Hoosier Games, Indiana University's game development club.</text>
-		</history>
-		<history>
-			<header>Here and Now</header>
-			<text>The three core members of the original team have continued to develop the game for the past year.</text>
+			<header>From Rags to Slightly Fancier Rags</header>
+			<text>
+				Slapped Silly Games started life as a project with Indiana University's Hoosier Games club.
+				The three-person team then continued work on Slug Slasher over the summer, showcasing the game at Indy Pop Con.
+				With the end in sight, the group is currently preparing for a mid 2018 PC release.
+			</text>
 		</history>
 	</histories>
 		
 	<trailers>
 		<trailer>
-			<name>Teaser Trailer</name>
+			<name>Remove This</name>
 			<youtube>7jQbITg0MSk</youtube>
 		</trailer>
 	</trailers>
 	
 	<awards>
+		<award>Remove this</award>
 	</awards>
 	
 	<quotes>
+		<quote>Remove this</quote>
 	</quotes>
 	
 	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
@@ -55,6 +57,7 @@
 																			 	non-commercial (no monetization allowed),
 																			 	monetize (full permission) -->	
 	<additionals>
+		remove this
 	</additionals>
 	
 	<credits>

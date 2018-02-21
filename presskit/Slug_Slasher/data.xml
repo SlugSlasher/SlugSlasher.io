@@ -2,7 +2,7 @@
 
 <game>
 	<title>Slug Slasher</title>
-	<release-date>1 June, 2018</release-date>
+	<release-date>Summer 2018</release-date>
 	<website>http://slugslasher.com/</website>
 	<press-can-request-copy>TRUE</press-can-request-copy>
 
@@ -13,36 +13,30 @@
 	</platforms>
 	
 	<prices>
-		<!--price>
-			<currency>USD</currency>
-			<value>$1.99</value>
+		<price>
+			<currency>TBA</currency>
+			<value></value>
 		</price>
-		<price>
-			<currency>EUR</currency>
-			<value>€1.59</value>
-		</price>
-		<price>
-			<currency>CAD</currency>
-			<value>$1.99</value>
-		</price>				
-		<price>
-			<currency>GBP</currency>
-			<value>£1.29</value>
-		</price-->
 	</prices>
 
 	<description>
-	Slug Slasher is a 2D action platformer where the player takes on the role of a chef who must defend the world from an onslaught of giant slugs with only his trusty bucket of salt. 
+		Slug Slasher is a 2D action platformer where the player takes on the role of a chef who must defend the world from an onslaught of giant slugs with only his trusty bucket of salt.
+		Featuring vibrant visuals, satisfying and punchy sound design, and classic side-scrolling platformer beat-em-up gameplay, the game is sure to charm even the saltiest souls both young and old.
 	</description>
-	
-	<history>
-	Slug Slasher started out as a project within Indiana University's Hoosier Games game development club. Development has continued for about a year and is due to finish during the summer of 2018.
-	</history>
+
+	<histories>
+		<history>
+			<header>From Rags to Slightly Fancier Rags</header>
+			<text>
+				Slug Slasher started out as a project within Indiana University's Hoosier Games game development club. Development has continued for about a year and is due to finish during the summer of 2018.
+			</text>
+		</history>
+	</histories>
 
 	<features>
-		<feature>Over-the-top visuals, sounds, and situations</feature>
-		<feature>Punchy, satisfying combat</feature>
-		<feature>Classic platformer beat-em-up level and enemy design</feature>
+		<feature>Classic punchy 2D action platformer gameplay enjoyable by veterans and newcomers alike</feature>
+		<feature>Over-the-top characters, environments, and situations packed with personality and filled to the brim with fun, engaging mechanics</feature>
+		<feature>Satisfying sounds supplementing your slug slashing soirées</feature>
 	</features>
 	
 	<trailers>
@@ -51,39 +45,6 @@
 			<youtube>7jQbITg0MSk</youtube>
 		</trailer>
 	</trailers>
-	
-	<awards>
-	</awards>
-	
-	<quotes>
-		<!--quote>
-			<description>This is a rather insignificant quote by a highly important person.</description>
-			<name>Person Name</name>
-			<website>Website</website>
-			<link>http://</link>
-		</quote>
-		<quote>
-			<description>An extremely positive quote from a rather insignificant person. Also great.</description>
-			<name>Some Guy</name>
-			<website>This Page Is Visited By 12 Visitors A Month</website>
-			<link>http://</link>
-		</quote>
-		<quote>
-			<description>I pretend to love this game even though I do not actually understand it.</description>
-			<name>Pretentious Bastard</name>
-			<website>Artsy Page</website>
-			<link>http://</link>
-		</quote>
-		<quote>
-			<description>HOLY SHIT SO AMAZING</description>
-			<name>Caps Guy</name>
-			<website>Angry Review</website>
-			<link>http://</link>
-		</quote-->
-	</quotes>
-	
-	<additionals>
-	</additionals>
 	
 	<credits>
 		<credit>
