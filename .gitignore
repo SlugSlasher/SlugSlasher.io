@@ -2,3 +2,4 @@
 *.php
 *.xml
 **/_template
+**/.vs
