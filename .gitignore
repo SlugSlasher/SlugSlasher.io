@@ -1,1 +1,4 @@
 /img/working/*
+*.php
+*.xml
+**/_template
