@@ -718,14 +718,10 @@ button {
     }
 
         .middle .title {
-            font-size: 6em;
+            font-size: 20vw;
             padding-left: 0.2em;
             white-space: nowrap;
         }
-
-            .middle .title.small {
-                font-size: 5em;
-            }
 
         .middle .content {
             padding: 0.7em 0.5em;
@@ -749,6 +745,8 @@ button {
         }
 
         .nav .nav-item {
+            text-align: center;
+            font-size: 5vw;
             padding: 1em 0.5em;
             flex-grow: 1;
         }
