@@ -722,6 +722,10 @@ button {
             padding-left: 0.2em;
             white-space: nowrap;
         }
+        .middle .title.small {
+            font-size: 15vw;
+        }
+
 
         .middle .content {
             padding: 0.7em 0.5em;
