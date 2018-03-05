@@ -155,12 +155,17 @@ strong {
         color: #fff;
         font-size: 6em;
         font-weight: 900;
-        height: .93em;
-        padding: .3em 1em 0 1em;
+        /*height: .93em;*/
+        padding: 0.1em 1em 0 1em;
         position: relative;
         z-index: -1;
         text-transform: uppercase;
     }
+	
+	.middle .title .text {
+		position: relative;
+		bottom: -0.25em;
+	}
 
     .middle .title-after {
         background: #ffd716;
@@ -502,17 +507,23 @@ strong {
     position: relative;
     background-position: center;
     background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
     height: 20em;
     width: 90%;
     margin: auto;
     margin-bottom: 2em;
-    margin-top: 1em;
+    margin-top: 1.5em;
     border-radius: 0.2em;
     border: 1px solid #fff;
     box-shadow: 5px 5px 0 #ccc;
     font-size: 0.75em;
     text-align: center;
 }
+
+	.img.tall {
+		height: 32em;
+	}
 
     .img[caption] {
         margin-bottom: 4em;
@@ -720,7 +731,6 @@ button {
         .middle .title {
             font-size: 20vw;
             padding-left: 0.2em;
-            white-space: nowrap;
         }
         .middle .title.small {
             font-size: 15vw;

@@ -11,7 +11,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript">
-        var post = window.location.href.split('?');
+        var post = window.location.href.replace('#','').split('?');
         var len = post.length;
         post = post[post.length - 1];
         var content = "";
@@ -48,9 +48,8 @@
             </div>
         </div>
     </div>
-
-    <div class="middle">
-        <div id="load">
+	<div id="load">
+		<div class="middle">
             <div class="title">
                 <div class="text no-select">Post Not Found!</div>
             </div>
@@ -59,9 +58,9 @@
                     Woops&mdash;It looks like the page you're looking for doesn't exist!<br />
                     <em>This can also happen if you have JavaScript disabled.</em>
                 </p>
+				<a href="#" class="page-ender"><img src="./img/slug-front.gif" /></a>
             </div>
         </div>
-        <a href="#" class="page-ender"><img src="./img/slug-front.gif" /></a>
     </div>
 
     <div class="bottom">
