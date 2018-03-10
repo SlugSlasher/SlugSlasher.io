@@ -1,0 +1,103 @@
+<div class="middle">
+	<div class="title">
+		<div class="text no-select">
+			TECH BLOG
+		</div>
+	</div>
+	<div class="content">
+		<p>
+			<strong class="big-text">
+				2D Lighting Effects in Slug Slasher
+			</strong><br />
+			March 9, 2018
+			<br/><br/>
+			
+			<strong class="big-text">
+				Design Notes
+			</strong>
+			<br/><br/>
+			
+			Lighting plays a huge role in the second thematic area of Slug Slasher. 
+			As the player journeys through the deep, dark sewers, they must navigate 
+			the pitch-black level with only a faint glow around their character and 
+			the occasional environmental light source.
+			<br/>
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Enemies.gif');"></div>
+
+			This effect allows for countless interesting elements and interactions where the 
+			level designer is able control exactly what information is available to the player 
+			at any given time or place. 
+			<br/><br/>
+			
+			Shadows can hide objects and other secrets in a way that 
+			rewards exploration and attention to small details visible from the main level path, 
+			while also giving enemies the element of surprise if the player makes a wrong turn.
+			<br/>
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Foreground.gif');" caption="Foreground parallax effects can give a nice sense of depth"></div>
+			
+			For the sewer areas especially, limited vision is also a great visual tool to 
+			communicate a sense of claustrophobia, where objects can block out areas of 
+			the screen and fade into the shadow even when illuminated.
+			<br/><br/>
+			
+			<a href="#" class="page-ender"><img src="./img/slug-front.gif" /></a>
+		</p>
+	</div>
+</div>
+<div class="middle">
+	<div class="title">
+		<div class="text no-select">
+			TECHNIQUES
+		</div>
+	</div>
+	<div class="content">
+		<p>
+			<strong class="big-text">
+				Rajin Shankar
+			</strong><br />
+			Programmer &amp; Technical Artist
+			<br/>
+			
+			<div class="img wide" style="background-image: url('posts/img/Lighting-BeforeAfter.png');" caption="Before and after lighting effects are applied"></div>
+			
+			To ease the process of creating areas of light and shadow, most effects are based 
+			on simple sprites that are rendered into a separate buffer than the main game view  
+			(handled for now by having a second camera that gets it’s configuration 
+			from the main scene camera and only renders objects on a specified layer). 
+			<br/>
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Editor.png');" caption="Adding light sources to the scene"></div>
+
+			Lighting sprites, as with any other sprites, can be transformed, colored, or otherwise manipulated during their own rendering process, 
+			allowing for seemingly complex behavior without much behind-the-scenes wizardry.
+			Procedural meshes, particle systems, and other renderable objects can also be used to create more interesting and interactive visual effects, 
+			so long as they are set to be visible to the lighting camera.
+			<br/>
+			
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Effects.gif');" caption="Wizard snail fireballs use particle systems for lighting effects"></div>
+			
+			For Slug Slasher, we also had the constraint of working with a very simply colored, pixel art aesthetic. Simply rendering the lighting image on top of the original proved to clash with the rest of the game’s visuals, so additional post-processing steps were needed to get these styles in line.
+			<br/>
+			
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Steps.png');"></div>
+			
+			The left-most image above shows the view of the lighting camera used to as the base of the full-screen effect. Moving to the right you have the same image with bloom and blurring to let light areas meld together in a fluid manner, then a simple color ramping to limit the effect to only a few different levels of intensity rather than a smooth gradient, and finally the composite image where the scene render is simply multiplied with the color of the lighting texture.
+			<br/>
+			
+			<img class="img wide" src='posts/img/Lighting-Code.png'/>
+			
+			The code that handles the compositing is incredibly simple, just set the lighting camera to render into a specific texture, and when the main camera goes to render the scene, draw the lighting texture on top with the specified material.
+			<br/>
+			
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Hits.gif');" caption="Burst of light on hits and combos can add more punch to the effects"></div>
+			
+			This same technique can be used in a variety of different contexts, check out some other examples below where I used the same code and a very similar image effect shader to get even more varied results.
+			<br/>
+			
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Soul.gif');" caption="Procedural shadows in Soul"></div>
+			<div class="img wide" style="background-image: url('posts/img/Lighting-Soul-Base.gif');" caption="The lighting buffer with bloom and lens dirt"></div>
+			<div class="img wide" style="background-image: url('posts/img/Lighting-CL.png');" caption="Fog of war using the same system in Command Line"></div>
+			
+			<a href="#" class="page-ender"><img src="./img/slug-front.gif" /></a>
+		</p>
+	</div>
+</div>
