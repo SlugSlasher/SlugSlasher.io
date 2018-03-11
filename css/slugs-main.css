@@ -690,6 +690,10 @@ button {
     .card.flex {
         flex-direction: column;
     }
+	
+	.mobile-first {
+		order: -1;
+	}
 
     .card .card-img {
         order: -1;
