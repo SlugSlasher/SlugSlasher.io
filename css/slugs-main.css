@@ -827,8 +827,10 @@ button {
             margin: 1em;
         }
 		
-		.card.row .card-img {
-			/*width: 30%;*/
+		.card.row .card-img.small {
+			padding: 0;
+			height: 4em;
+			width: 90%;
 		}
 
         .card .card-text {
