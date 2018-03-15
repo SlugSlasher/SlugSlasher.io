@@ -724,7 +724,7 @@ button {
     MOBILE
 */
 
-@media screen and (-webkit-min-device-pixel-ratio : 2.5) {
+@media screen and (-webkit-min-device-pixel-ratio : 2) and (max-device-width: 700px) {
     body {
         font-size: 2rem;
     }
